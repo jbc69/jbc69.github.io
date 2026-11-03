@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tesla sign-in complete</title></head>
+<body style="font-family:-apple-system,Arial,sans-serif;padding:24px">
+<h2>Tesla sign-in complete</h2>
+<p>You can close this page and return to Master Chief.</p>
+<p id="s" style="color:#666;font-size:13px"></p>
+<script>var p=new URLSearchParams(location.search);document.getElementById('s').textContent=p.get('code')?'Authorization received.':(p.get('error')?'Error: '+p.get('error'):'');</script>
+</body></html>
